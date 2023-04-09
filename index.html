@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Landing Page</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#introducao">NFIRE</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#introducao">Introdução</a></li>
+          <li><a href="#top3">Top 3</a></li>
+          <li><a href="#vantagens">Vantagens</a></li>
+          <li><a href="#ferramentas">Ferramentas</a></li>
+          <li><a href="#ferramentas-features">Recursos</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="introducao" class="main-bg section">
+    <div class="main-content introducao-content">
+      <div class="introducao-text-content">
+        <h2>Qual a vantagem de utilizar JavaScript no HTML? </h2>
+        <p>Em conjunto com o HTML, além de facilitar a validação de formulários, o JavaScript permite inserir vários
+          efeitos, fazendo com que o site (ou uma mensagem de correio eletrônico) fique mais dinâmico, e com maior
+          interação
+          com o usuário.</p>
+        <p>Além disso, o JavaScript coloca à disposição do programador todos os elementos que formam a página Web,
+          para que este possa acessá-las e modificá-los dinamicamente. Algo que o destaca são as grandes possibilidades,
+          nas quais permitem a programação de mas também de programas maiores, orientados a objetos, com funções e
+          estruturas de dados complexas.</p>
+      </div>
+
+      <div class="introducao-img"><img src="assets/img/javascript-otimizada.svg"
+          alt="Um homem segurando a logo do CSS, uma mulher segurando a logo do JavaScript e um homem segurando a logo do HTML">
+      </div>
+    </div>
+  </section>
+
+  <section id="top3" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>top 3 linguagens</h2>
+      <p>Com base em uma pesquisa feita pelo site Cedro Tech na qual foi atualizada em 2023, será abordado abaixo sobre
+        as 3 linguagens de programação mais utilizadas hoje em dia.</p>
+      <p>Em 3°lugar se encontra a linguagem Java que a todo momento está subindo em seus índices de popularidade. Ela é
+        utilizada para a criação de aplicativos Android, o sistema operacional mais presente nos aparelhos móveis. Além
+        disso, entre seus pontos positivos estão a escalabilidade, sua adaptação com o crescimento de utilizações do
+        software e a retrocompatibilidade. Uma versão antiga do código continua sendo reconhecida por versões mais
+        recentes.</p>
+      <p>Já em 2°lugar se econtra o SQL na qual é a linguagem padrão para a manipulação de bancos de dados através de
+        SGBDs (sistema de gerenciamento). Com essa linguagem, é possível realizar diversas tarefas como criar arquivos
+        no banco de dados, consultar informações, inserir e alterar registros, gerenciar acesso de usuários, entre
+        outros fatores.</p>
+      <p>Chegando no 1°lugar, o tão cobiçado JavaScript no qual está nesta posição na lista do Stack Overflow há seis
+        edições! Como já dito na introducao, essa linguagem de programação é utilizada de maneira ampla para aplicações
+        web e
+        por isso vem ganhado espaço tanto no desktop, como no mobile. É bastante utilizado para criar interatividade.
+        Mesmo sendo uma linguagem um pouco mais antiga em comparação com a maioria, ainda é bastante requisitada por sua
+        simplicidade.</p>
+    </div>
+  </section>
+
+  <section id="vantagens" class="vantagens main-bg section">
+    <div class="main-content vantagens-content">
+      <h2 class="vantagens-heading">Vantagens</h2>
+      <p class="vantagens-description">Abaixo veja três vantagens de utilizar o JavaScript:</p>
+      <div class="grid">
+        <article>
+          <h3>Versatilidade</h3>
+          <p>Embora aprender JavaScript esteja relacionado ao desenvolvimento web, com o uso de alguns frameworks, como
+            o Node.js, você pode utilizar e adaptar a tecnologia para outros cenários. Neste contexto, devido à
+            constante evolução da mesma, os navegadores modernos são um ótimo aliado. </p>
+          <p> Equipados com ferramentas atuais, você pode começar a programar sem precisar de outras linguagens. Fora
+            que é possível usá-la em aplicações front-end e back-end.</p>
+        </article>
+        <article>
+          <h3>Recursos</h3>
+          <p>Há quem diga que o JavaScript é a linguagem com o maior número de frameworks disponíveis. Como resultado, o
+            processo de desenvolver aplicações é muito mais simples quando comprado a outras tecnologias. Tanto pela
+            variedade de opções, como por poder escolher a melhor ferramenta conforme os seus objetivos.</p>
+        </article>
+        <article>
+          <h3>Empregabilidade</h3>
+          <p>Por causa dos motivos que apresentamos até então, o mercado de trabalho sempre está em busca de
+            profissionais da área. Com o crescimento e valorização do JavaScript nos últimos anos, há, em paralelo, o
+            aumento desse tipo de desenvolvimento. Logo, além da demanda maior, é uma ótima competência para se ter no
+            currículo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="ferramentas" class="white-bg section">
+
+    <div class="main-content ferramentas-height vantagens-content">
+      <h2 class="vantagens-heading">Ferramentas</h2>
+      <p class="vantagens-description">Veja algumas ferramentas populares do JavaScript:
+      </p>
+
+      <div class="grid-three-columns">
+
+        <div class="ferramentas-img">
+          <a href="https://nodejs.org/en/docs" target="_blank"><img src="assets/img/nodejs.png"
+              alt="logo nodejs 360x360"></a>
+        </div>
+
+        <div class="ferramentas-img">
+          <a href="https://react.dev/" target="_blank"><img src="assets/img/react-logo.png"
+              alt="logo react 360x360"></a>
+        </div>
+
+        <div class="ferramentas-img">
+          <a href="https://docs.angularjs.org/guide" target="_blank"><img src="assets/img/angular.png"
+              alt="logo angular 360x360"></a>
+        </div>
+
+        <div class="ferramentas-img">
+          <a href="https://vuejs.org/guide/introduction.html" target="_blank"><img src="assets/img/vuejs.jpg"
+              alt="logo vuejs 360x360"></a>
+        </div>
+
+        <div class="ferramentas-img">
+          <a href="https://redux.js.org/" target="_blank"><img src="assets/img/redux.png" alt="logo redux 360x360"></a>
+        </div>
+
+        <div class="ferramentas-img">
+          <a href="https://d3js.org/" target="_blank"><img src="assets/img/d3js.png" alt="logo d3js 360x360"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ferramentas-features" class="vantagens main-bg section">
+    <div class="main-content vantagens-content ferramentas-content">
+      <h2 class="vantagens-heading">Recurso das Ferramentas</h2>
+      <p class="vantagens-description">Abaixo é apresentado um breve resumo do uso das principais ferramentas da citada
+        em "Tools":</p>
+      <div class="grid grid-ferramentas">
+        <article>
+          <h3>Node.js</h3>
+          <p>Node.js é uma ferramenta que permite que desenvolvedores utilizem o JavaScript para criar aplicações no
+            lado do servidor. Ele é construído em cima do motor JavaScript V8 do Google Chrome e tem se tornado cada vez
+            mais popular entre os desenvolvedores web. Com o Node.js, é possível criar aplicações em tempo real,
+            manipular arquivos, construir APIs e muitas outras coisas. Ele é muito importante porque permite que o
+            desenvolvimento de aplicações web seja feito completamente em JavaScript, tanto no lado do cliente quanto no
+            lado do servidor, o que simplifica o processo de desenvolvimento e torna o trabalho dos desenvolvedores mais
+            eficiente.</p>
+        </article>
+        <article>
+          <h3>React</h3>
+          <p>O React é uma biblioteca JavaScript para construir interfaces de usuário (UI). Ele foi desenvolvido pelo
+            Facebook e é amplamente utilizado para criar aplicativos web e móveis. O React utiliza componentes
+            reutilizáveis para organizar e gerenciar a interface do usuário, permitindo que os desenvolvedores criem
+            aplicativos escaláveis e fáceis de manter. Uma das principais vantagens do React é a sua capacidade de
+            atualizar apenas as partes da interface do usuário que mudaram, em vez de recarregar a página inteira, o que
+            torna o aplicativo mais rápido e responsivo.</p>
+        </article>
+        <article>
+          <h3>AngularJS</h3>
+          <p>O AngularJS é um framework JavaScript de código aberto criado pela Google para a construção de aplicações
+            web dinâmicas e SPA (Single Page Applications). Ele utiliza o padrão MVC (Model-View-Controller) e oferece
+            diversas funcionalidades que facilitam o desenvolvimento de aplicações robustas e escaláveis, como por
+            exemplo, injeção de dependência, diretivas, validação de formulários, entre outros. Com o AngularJS, é
+            possível criar interfaces ricas e interativas, além de uma estrutura de código bem organizada e modular. Ele
+            também possui uma comunidade ativa e grande quantidade de documentação disponível.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="beneficios" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Benefícios do JavaScript</h2>
+      <p>Na tabela abaixo, apresentamos cinco benefícios do uso do JavaScript em projetos web. Entre eles, destacamos a
+        possibilidade de criar interações dinâmicas com o usuário, a melhora na performance da aplicação, a facilidade
+        em manipular o DOM, a compatibilidade com diferentes navegadores e a grande comunidade de desenvolvedores que
+        utilizam essa linguagem. Conhecer esses benefícios pode ser útil para decidir quando e como utilizar o
+        JavaScript em seus projetos.</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Tabela de benefícios:</caption>
+
+          <thead>
+            <tr>
+              <th>Tipos de dados:</th>
+              <th>Operadores:</th>
+              <th>Estrutura de controle:</th>
+              <th>Eventos:</th>
+              <th>Frameworks e bibliotecas</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Strings</td>
+              <td>Aritméticos</td>
+              <td>If-else</td>
+              <td>Mouse (click, hover, scroll)</td>
+              <td>React</td>
+            </tr>
+
+            <tr>
+              <td>Números</td>
+              <td>De comparação</td>
+              <td>Switch-case/td>
+              <td>Teclado (keydown, keyup)</td>
+              <td>Angular</td>
+            </tr>
+
+            <tr>
+              <td>Booleanos</td>
+              <td>Lógicos</td>
+              <td>Loops (for, while, do-while)</td>
+              <td>Formulários (submit, focus, blur)</td>
+              <td>Vue</td>
+            </tr>
+
+            <tr>
+              <td>Null</td>
+              <td>De atribuição</td>
+              <td>Try-catch</td>
+              <td>Documento (load, resize, scroll)</td>
+              <td>Redux</td>
+            </tr>
+
+            <tr>
+              <td>Undefined</td>
+              <td>Ternários</td>
+              <td>Funções</td>
+              <td>Tempo (setInterval, setTimeout)</td>
+              <td>Node.js</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="main-bg section">
+    <div class="main-content introducao-content contato-content">
+      <div class="introducao-text-content">
+        <h2>Obrigado por visitar</h2>
+        <p>Este site é apenas uma prática com alguns recursos HTML e CSS, agradeço por ter visitado, no canto inferior
+          da página há uma certa assinatura, clicando nela você será redirecionado para meu instagram, está aberto caso
+          queira falar sobre algo. OBS: Só avisando que o formulário abaixo é apenas demonstrativo.</p>
+      </div>
+
+      <div class="introducao-img contato-img">
+        <img src="assets/img/contact.svg"
+          alt="Mulher segurando uma carta branca e encaixando em uma outra carta abaixo dela sendo da cor azul.">
+      </div>
+
+      <div class="contato-form">
+        <fieldset class="form-grid">
+          <legend>Contate-me:</legend>
+
+          <div class="form-group">
+            <label for="primeiro-nome">Primeiro nome:</label>
+            <input type="text" name="primeiro-nome" id="primeiro-nome" placeholder="Primeiro nome">
+          </div>
+
+          <div class="form-group">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem 
+
+OBS: APENAS DEMONSTRATIVO"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar mensagem</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="white-bg footer">
+    <p><a href="https://www.instagram.com/henriquerf12/" rel="nofollow" target="_blank">Feito com <span
+          class="heart">❤</span> por Henrique Almeida</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#introducao">➜</a>
+
+</body>
+
+</html>
